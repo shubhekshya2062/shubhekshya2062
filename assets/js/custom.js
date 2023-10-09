@@ -90,14 +90,14 @@ $(document).ready(function(){
 							items:2
 						},
 						600:{
-							items:2
+							items:4
 
 						},
 						1199:{
-							items:5
+							items:4
 						},
 						1200:{
-							items:6
+							items:7
 						}
 					}
 				});
