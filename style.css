@@ -16,6 +16,7 @@ body{
   color: white;
   list-style-type: none;
   align-items: center;
+  
 }
 
 .container{
@@ -264,6 +265,8 @@ border-radius: 5%;
   border-radius: 5%;
   padding: 4% 2%;
   box-shadow: 0px 15px 15px rgba(173, 173, 173, 0.1);
+  text-align: justify;
+  text-justify: inter-word;
 
 }
 
@@ -301,6 +304,7 @@ border-radius: 5%;
   padding-left: 2%;
   padding-right: 2%;
   border-right: rgb(143, 143, 143) solid 1px;
+  
 }
 
 li::marker {
@@ -310,6 +314,11 @@ li::marker {
 }
 .education p{
   color: black;
+}
+
+.info{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @media only screen and (max-width: 767.96px) {
