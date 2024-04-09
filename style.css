@@ -248,6 +248,7 @@ body{
   margin-left: 3%;
   margin-right: 3%;
   border-bottom: rgb(143, 143, 143) solid 1px;
+ 
 
 }
 
@@ -262,6 +263,8 @@ border-radius: 5%;
   background-color: #f9f9f9;
   border-radius: 5%;
   padding: 4% 2%;
+  box-shadow: 0px 15px 15px rgba(173, 173, 173, 0.1);
+
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -325,11 +328,6 @@ li::marker {
   }
 }
 
-@media only screen and (max-width: 767.96px) {
-  li[name="thames"]{
-   border-bottom: none;
-  }
-}
 
 
 li[name="thames"]{
@@ -344,6 +342,20 @@ li[name="avn"]{
 li[name="spa"]{
   width: 33.34%;
 }
+
+@media only screen and (max-width: 767.96px) {
+  li[name="thames"]{
+   border-bottom: none;
+   width: 90%;
+  }
+}
+
+@media only screen and (max-width: 767.96px) {
+  li[name="thames"], li[name="avn"], li[name="spa"]{
+   width: 90%;
+  }
+}
+
 
 .footer{
   border-top: rgb(143, 143, 143) solid 1px;
